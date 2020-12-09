@@ -1,0 +1,7 @@
+/* Enter your custom styles here */
+.myCustomHeader.sapMGTHdrContent{
+	height : 2rem
+}
+.myCustomContent.sapSuiteCpMCResponsive.sapSuiteCpMCChartContent {
+	height : 150%
+}

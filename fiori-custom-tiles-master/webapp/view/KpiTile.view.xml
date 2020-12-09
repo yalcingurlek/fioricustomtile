@@ -1,0 +1,33 @@
+<core:View xmlns="sap.m" xmlns:mic="sap.suite.ui.microchart" xmlns:core="sap.ui.core" controllerName="view.KpiTile">
+	<GenericTile press="onPress" header="{/config/display_title_text}"
+		frameType="OneByOne">
+		<tileContent>
+			<TileContent footer="{/config/display_info_text}" >
+				<content>
+					<mic:ColumnMicroChart size="Responsive">
+						<mic:leftTopLabel>
+							<mic:ColumnMicroChartLabel label="0M" />
+						</mic:leftTopLabel>
+						<mic:rightTopLabel>
+							<mic:ColumnMicroChartLabel label="80M" />
+						</mic:rightTopLabel>
+						<mic:leftBottomLabel>
+							<mic:ColumnMicroChartLabel label="June 1" />
+						</mic:leftBottomLabel>
+						<mic:rightBottomLabel>
+							<mic:ColumnMicroChartLabel label="June 30" />
+						</mic:rightBottomLabel>
+						<mic:columns>
+							<mic:ColumnMicroChartData value="{/data/value1}" color="{/data/color1}" />
+							<mic:ColumnMicroChartData value="{/data/value2}" color="{/data/color2}" />
+							<mic:ColumnMicroChartData value="{/data/value3}" color="{/data/color3}" />
+							<mic:ColumnMicroChartData value="{/data/value4}" color="{/data/color4}" />
+							<mic:ColumnMicroChartData value="{/data/value5}" color="{/data/color5}" />
+							<mic:ColumnMicroChartData value="{/data/value6}" color="{/data/color6}" />
+						</mic:columns>
+					</mic:ColumnMicroChart>
+				</content>
+			</TileContent>
+		</tileContent>
+	</GenericTile>
+</core:View>
