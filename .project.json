@@ -1,0 +1,21 @@
+{
+  "mockpreview": {
+    "mockUri": "",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "deploy": {
+    "destination": "GWD-Fiori",
+    "name": "Z_FIORI_MLR_EXT"
+  },
+  "projectType": [
+    "sap.watt.uitools.ide.fiori",
+    "com.watt.common.builder.sapui5clientbuild"
+  ],
+  "build": {
+    "buildRequired": false,
+    "lastBuildDateTime": "Sun, 28 Jan 2018 10:44:23 GMT"
+  }
+}
